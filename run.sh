@@ -3,7 +3,8 @@
 cd ./frontend
 npm run build
 cd ../app
-apt install dpkg
-apt install fakeroot
+sudo apt install dpkg
+sudo apt install fakeroot
 npm run make -- --platform linux
 # run the app
+./out/app-linux-x64/app
